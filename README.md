@@ -12,9 +12,12 @@ The repository that would host all the programs for 3rd semester OOP Lab ( I hop
 
 ## Contributing
 
-If you are intrested in contributing feel free to open pull request. For areas that require contribution refer to the issues.
+If you are intrested in contributing feel free to open pull request.
+For areas that require contribution refer to the issues.
 
 ### Contributors
+
+
 
 - [@rohittp0](https://github.com/rohittp0)
 - [@sunithvs](https://github.com/sunithvs)
