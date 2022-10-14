@@ -22,3 +22,6 @@ For areas that require contribution refer to the issues.
 - [@rohittp0](https://github.com/rohittp0)
 - [@sunithvs](https://github.com/sunithvs)
 - [@Izroth404](https://github.com/Izroth404)
+- [@saikrshna](https://github.com/saikrshna)
+- [@sidhupilicode](https://github.com/sidhupilicode)
+- [@naaji-navas](https://github.com/naaji-navas)
