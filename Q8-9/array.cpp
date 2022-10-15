@@ -54,7 +54,7 @@ int main() {
 
     array1.readData();
     std::cout << "Average = " << array1.getAverage() << std::endl;
-    std::cout << "By what number do you want to multiply.";
+    std::cout << "By what number do you want to multiply : ";
     std::cin >> m;
     array2.scale(m);
     std::cout << "Average = " << array1.getAverage() << std::endl;
