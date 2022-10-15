@@ -25,3 +25,4 @@ For areas that require contribution refer to the issues.
 - [@saikrshna](https://github.com/saikrshna)
 - [@sidhupilicode](https://github.com/sidhupilicode)
 - [@naaji-navas](https://github.com/naaji-navas)
+- [@AazimAnish](https://github.com/AazimAnish)
