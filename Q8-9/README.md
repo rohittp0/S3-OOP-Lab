@@ -85,7 +85,7 @@ Average = 8
 4	8	12	
 ```
 
-![phone number structure](outputs/phone.png)
+![array](outputs/array.png)
 
 ## Question 5
 ❔ Write a program to find the shortest distance between three coordinates points, representing vertices of a triangle, using inline function. Also check the validity of the sides to make a triangle.
