@@ -15,6 +15,32 @@ The repository that would host all the programs for 3rd semester OOP Lab ( I hop
 If you are intrested in contributing feel free to open pull request.
 For areas that require contribution refer to the issues.
 
+## The format of contribution :
+
+## Question Number
+
+❔ Problem to be solved/Question.
+
+### Program
+
+```cpp
+
+```
+
+### Algorithm
+
+```markdown
+
+```
+
+### Output
+
+```text
+
+```
+
+![screenShot of the output](outputs/prime_check.png)
+
 ### Contributors
 
 
@@ -26,3 +52,4 @@ For areas that require contribution refer to the issues.
 - [@sidhupilicode](https://github.com/sidhupilicode)
 - [@naaji-navas](https://github.com/naaji-navas)
 - [@AazimAnish](https://github.com/AazimAnish)
+
