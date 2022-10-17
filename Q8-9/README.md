@@ -58,7 +58,7 @@ int main() {
 
     array1.readData();
     std::cout << "Average = " << array1.getAverage() << std::endl;
-    std::cout << "By what number do you want to multiply.";
+    std::cout << "By what number do you want to multiply : ";
     std::cin >> m;
     array2.scale(m);
     std::cout << "Average = " << array1.getAverage() << std::endl;
@@ -75,14 +75,17 @@ int main() {
 ### Output
 
 ```text
-Enter your area code, exchange, and number :314 273 2997
-My Number : (100) 200-1234
-Your Number : (314) 273-2997
-
-Process finished with exit code 0
+Enter how many numbers you want to enter : 3
+2
+4
+6
+Average = 4
+By what number do you want to multiply : 2
+Average = 8
+4	8	12	
 ```
 
-![phone number structure](outputs/phone.png)
+![array](outputs/array.png)
 
 ## Question 5
 ❔ Write a program to find the shortest distance between three coordinates points, representing vertices of a triangle, using inline function. Also check the validity of the sides to make a triangle.
