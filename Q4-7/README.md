@@ -334,6 +334,25 @@ int main() {
 ```
 
 ### Algorithm
+```markdown
+1 Start 
+2 Create a class bank account 
+	2.1 Declare two string variables name and account type, a long int account no,  a long int balance 
+3 Define a function assign() to input the account details 
+4 Define a function to perform deposit transaction  
+	4.1 Input the amount to be deposited 
+	4.2 Display the final balance 
+5 Define a function to perform withdraw details 
+	5.1 if entered amount is higher than account balance display not enough balance 5.2 Display the remaining balance after reducing the withdrawal amount 6 Define a function to display account balance and depositor’s name 
+7 In the main function declare an object of class bank account and an int choice 
+	7.1 Use a while loop until choice is less than 4 
+	7.2 inside that loop ask the user’s choice to perform which transaction 
+	7.3 Use a switch case to perform different tasks according to user’s choice by Calling the respective functions using the object created  
+above 
+	7.4 if choice is 4 then exit 
+8 Stop
+```
+
 
 ### Output
 
