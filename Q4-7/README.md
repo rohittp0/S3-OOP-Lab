@@ -171,7 +171,37 @@ int main() {
 
 ### Algorithm
 
+
 ```markdown
+1.Start 
+	1.1:Define a function leapyear() to check whether the year is leap year or not. 
+2.Define a class named Date with members day,month and year and methods input ,validator and display. 
+3.Read the day,month and year from user using input method with the object created. 
+4.Invok the display method and the display method works as, 
+	4.1. Call the validator method 
+	4.1.1. check the month is valid , if not return false 
+	4.1.2.Check the day is valid , if not return false 
+	4.1.3.For month is equal to 2 , check whether the year is leap year or not. If it is a leap year check whether the date is less than or equal to 29, if not 		  ,return false. 
+	4.1.4.If it is not leap yar check whether the day is less than  
+	      or equal to 28, if not return false. 
+	4.1.5.for month equal to 4,6,9 and 11 check whether the  
+	      day is less or equal to 30 , if not return false. 
+	4.1.6. all the conditions are statisfied return true. 
+5. Store the return value of validator method in a local variable called  
+	   result 
+6.For printing next date, 
+	6.1.If the month is 2,check whether the year is leap year or not , if it is leap year then chek the day is equal to 29 or not , if it is 29 change the  value 		  of day to 1 and increment month by 1.if not increment day by 1. 
+	6.2.If it is not leap year ,then chek the day is equal to 28 or not , if it is 28 change the value 
+	    of day to 1 and increment month by 1.if not increment day by 1. 
+	6.3.If month is equal to 4,6,9 and 11 and day =30then change the value of day=1  and increment the value of month by 1 .else increment 
+             day by one . 
+	6.4.If month equal to 12 and date =31 then change the value of day and  month to 1 and increment year by and .else increment 
+             date by one . 
+	6.5.else , if day =31, change the value of day to 1 and increment value of  month by one and print the date.else increment 
+            date by one 
+7.According to value of result variable print the output.If it is true then print  valid and the new date updated by step 6.else print not valid. 
+8.Stop. 
+
 ```
 
 ### Output
