@@ -52,4 +52,5 @@ For areas that require contribution refer to the issues.
 - [@sidhupilicode](https://github.com/sidhupilicode)
 - [@naaji-navas](https://github.com/naaji-navas)
 - [@AazimAnish](https://github.com/AazimAnish)
+- [@sanumuhammedc](https://github.com/sanumuhammedc)
 
