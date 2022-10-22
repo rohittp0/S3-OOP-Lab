@@ -420,12 +420,154 @@ Enter meters : 3
 ### Program
 
 ```cpp
+#include <iostream>
+using namespace std;
+class Student{
+protected:
+string name;
+int age, reg_no;
+public:
+virtual void sort(int studentNo) = 0;
+};
+class BTechStudent : public Student{
+float marks;
+public:
+void input(){
+cout<<"Enter name: ";
+cin>>name;
+cout<<"Enter Age: ";
+cin>>age;
+cout<<"Enter Register No: ";
+cin>>reg_no;
+cout<<"Enter Total Mark: ";
+cin>>marks;
+cout<<"
+";
+}
+void sort(int studentNo);
+};
+static BTechStudent bstudent[10];
+void BTechStudent :: sort(int studentNo){
+for(int i = 0;i<studentNo;i++){
+BTechStudent temp;
+for(int j = i+1;j<studentNo;j++){
+if(bstudent[i].marks > bstudent[j].marks){
+temp = bstudent[i];
+bstudent[i] = bstudent[j];
+bstudent[j] = temp;
+}
+if(bstudent[i].marks == bstudent[j].marks){
+if(bstudent[i].name > bstudent[j].name){
+temp = bstudent[i];
+bstudent[i] = bstudent[j];
+bstudent[j] = temp;
+}}
+}
+}
+cout<<"\nName\tAge\tRegister No\tMark\n";
+for(int i = 0;i<studentNo;i++){
+cout<<bstudent[i].name<<"\t"<<bstudent[i].age<<"\t"<<bstudent[i].reg_no<<"\t\t"<<bstudent[i].
+marks<<"\n";
+}
+}
+class MTechStudent : public Student{
+float gpa;
+public:
+void input(){
+cout<<"Enter name: ";
+cin>>name;
+cout<<"Enter Age: ";
+cin>>age;
+cout<<"Enter Register No: ";
+cin>>reg_no;
+cout<<"Enter Last CGPA: ";
+cin>>gpa;
+cout<<"
+";
+}
+void sort(int studentNo);
+};
+MTechStudent mstudent[5];
+void MTechStudent :: sort(int studentNo){
+for(int i = 0;i<studentNo;i++){
+MTechStudent temp;
+for(int j = i+1;j<studentNo;j++){
+if(mstudent[i].gpa > mstudent[j].gpa){
+temp = mstudent[i];
+mstudent[i] = mstudent[j];
+mstudent[j] = temp;
+}
+if(mstudent[i].gpa == mstudent[j].gpa){
+if(mstudent[i].name > mstudent[j].name){
+temp = mstudent[i];
+mstudent[i] = mstudent[j];
+mstudent[j] = temp;
+}
+}}
+}
+cout<<"\nName\tAge\tRegister No\tGPA\n";
+for(int i = 0;i<studentNo;i++){
+cout<<mstudent[i].name<<"\t"<<mstudent[i].age<<"\t"<<mstudent[i].reg_no<<"\t\t"<<mstudent[i
+].gpa<<"\n";
+}
+}
+int main(){
+int bstudentNo;
+cout<<"Enter the Number of Btech Students: ";
+cin>>bstudentNo;
+for(int i = 0;i<bstudentNo;i++){
+cout<<"\nEnter the details of student No: "<<i+1<<"\n";
+bstudent[i].input();
+cout<<"\n";
+}
+Student* student = new BTechStudent();
+student->sort(bstudentNo);
+int mstudentNo;
+cout<<"\n\nEnter the Number of Mtech Students: ";
+cin>>mstudentNo;
+for(int i = 0;i<mstudentNo;i++){
+cout<<"Enter the details of student No: "<<i+1<<"\n";
+mstudent[i].input();
+cout<<"\n";
+}
+student = new MTechStudent();
+student->sort(mstudentNo);
+}
 
 ```
 
 ### Algorithm
 
 ```markdown
+1. Start
+2. Create a base class student
+3. Declare a string variable to store name, 2 int variables for storing age and register No as
+protected and declare a pure virtual function sort Which accepts an int as argument
+4. Create a class BTechStudent which inherits class Student
+5. Declare a float variable to store marks and a function input () for inputting the student details
+from the user.
+6. Declare a function sort inside the class and defined outside the class
+7. Declare an array of objects of this class just below this class.
+8. Inside sort function Use bubble sort to sort the above-mentioned array.
+9. If the marks are unequal bring the higher scored student to initial indices
+10. If the marks are equal sort the students according to the alphabetic order Of their name.
+11. Display the sorted array with proper titles
+12. Create a class MTech Student which inherits class Student
+13. Declare a float variable to store cgpa and a function input () for inputting the student details
+from the user.
+14. Repeat the same process from 4 to 11 for this class also
+15. Inside the main function declare two int variables and ask the user how many btech students he
+wants to enter and store it
+16. Run a for loop until the user's choice and store the details to the Object array of theclass
+btechstudent
+17. Create a pointer of class Student and store instance of class Btech student and call function sort
+using the pointer
+18. Ask the user how many Mtech students he wants to enter and store it.
+19. Run a for loop until users choice and store the student details to the arrayof objects of this
+class using input fn.
+20. Assign the new instance of class MTech student to the above created Pointer and call function
+sort
+21. Stop
 ```
 
 ### Output
@@ -435,7 +577,7 @@ Enter meters : 3
 
 ```
 
-![ss](outputs/ss.png)
+![Virtual_Function](outputs/Virtual_Function.png)
 
 ## Question 15
 ❔ 
