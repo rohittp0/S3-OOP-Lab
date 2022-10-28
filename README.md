@@ -1,3 +1,5 @@
+<img src="https://github.com/rohittp0/S3-OOP-Lab/blob/main/cover.png" width="100%" >
+
 The repository that would host all the programs for 3rd semester OOP Lab ( I hope 🤞 )
 
 - Questions
