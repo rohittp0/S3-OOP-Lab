@@ -2,7 +2,7 @@
 
 The repository that would host all the programs for 3rd semester OOP Lab ( I hope 🤞 )
 
-- Questions
+## Questions
   - [Q1 Check if number if prime](Q1-3/#question-1)
   - [Q2 Find GCD](Q1-3/#question-2)
   - [Q3 Find biggest prime less than a given number](Q1-3/#question-3)
