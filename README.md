@@ -41,7 +41,7 @@ For areas that require contribution refer to the issues.
 
 ```
 
-![screenShot of the output](outputs/prime_check.png)
+<!-- ![screenShot of the output](outputs/prime_check.png) -->
 
 ### Contributors
 
