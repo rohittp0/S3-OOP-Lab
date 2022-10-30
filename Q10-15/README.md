@@ -1,5 +1,6 @@
 ## Question 10
-❔ 
+❔ Write a program using operator overloading to overload Stream operators (<< and >>)
+to read and display the objects of complex class.
 
 ### Program
 
@@ -52,7 +53,10 @@ The complex number is 3i + 6
 ![complex](outputs/complex.png)
 
 ## Question 11
-❔ 
+❔ Polar coordinates are represented in angle and radius format while rectangular
+coordinates represented as (x, y). Define classes for both types and include member
+functions to convert from polar to rectangular coordinates. (Conversion from class to
+class.)
 
 ### Program
 
@@ -176,7 +180,9 @@ r = 2 theta = 30 in rectangular coordinates = ( 0.308503 , -1.97606 )
 ![distance](outputs/distance.png)
 
 ## Question 12
-❔ 
+❔ Distance is measured in feet and inches unit. Use operator overloading for &#39;+&#39; operator
+for adding two such distances and &#39;&lt;&#39; for comparing two such distances. (one of the
+operator function should be implemented as friend function.)
 
 ### Program
 
@@ -286,7 +292,9 @@ distance 1 greater than distance 2
 ![distance](outputs/distance.png)
 
 ## Question 13
-❔ 
+❔ A class representing distance is measured in the unit of feet and inches. Write a
+program to do conversion from meter unit to objects of class type and objects of class
+type to meter.
 
 ### Program
 
@@ -415,7 +423,11 @@ Enter meters : 3
 ![feet2meter](outputs/feet2meter.png)
 
 ## Question 14
-❔ 
+❔ Write a C++ program to create a class STUDENT with age, name and register
+number. Using Inheritance, derive two classes MTech-stud and BTech-stud. List both
+the category of students in the increasing order of marks (for BTech-stud) and gpa
+(for MTech-stud). In case of tie, display whichever name comes first. Make sort ()
+function as a virtual function.
 
 ### Program
 
